@@ -1,0 +1,22 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background: linear-gradient(#FFF, #1B4D3E);
+    background-repeat: no-repeat;
+  }
+  
+  .card {
+    background: #FFF;
+    width: 300px;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 3px 5px 10px 1px #1B4D3F;
+  }
+  
+  .services_disclaimer {
+    font-size: 60%;
+  }

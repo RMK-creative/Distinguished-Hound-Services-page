@@ -4,19 +4,31 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 100vh;
-    background: linear-gradient(#FFF, #1B4D3E);
-    background-repeat: no-repeat;
+    width: 100vw;
+    /*background: linear-gradient(#FFF, #1B4D3E);*/
+  }
+
+  header {
+    text-align: center;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .card {
     background: #FFF;
-    width: 300px;
+    width: 80%;
     border-radius: 10px;
     padding: 1em;
-    box-shadow: 3px 5px 10px 1px #1B4D3F;
+    box-shadow: 1px 1px 10px 1px #a6a8a8;
+    margin: 0.5rem;
   }
   
-  .services_disclaimer {
+  .services__disclaimer {
     font-size: 60%;
   }
+  

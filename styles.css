@@ -38,9 +38,16 @@ body {
     
   }
 
-
   ol {
       list-style: none;
+  }
+
+  .services__price-box {
+      display: inline-flex;
+  } 
+
+  .services__price-item {
+      margin-right: 1rem;
   }
   
   .services__disclaimer {

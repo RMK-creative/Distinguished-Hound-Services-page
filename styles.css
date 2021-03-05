@@ -1,15 +1,17 @@
-
-
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 600px;
-    /* background: linear-gradient(#FFF, #1B4D3E); */
+    max-width: 100vw;
+    font-family: 'Flamenco', cursive;
+    font-size: 0.9em;
+    line-height: 1.2em;
   }
 
+
    /*  Mobile-first design  */
-  header {
+  
+    header {
     text-align: center;
   }
 
@@ -32,10 +34,13 @@ body {
     background: #FFF;
     max-width: 70%;
     border-radius: 10px;
-    padding: 1em;
-    box-shadow: 1px 1px 10px 1px #a6a8a8;
+    padding: 0 1em;
+    box-shadow: 2px 2px 6px 0px #a6a8a8;
     margin: 0.5rem;
-    
+  }
+
+  .card h3 {
+      text-align: center;
   }
 
   ol {
@@ -43,34 +48,53 @@ body {
   }
 
   .services__price-box {
-      display: inline-flex;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
   } 
 
   .services__price-item {
       margin-right: 1rem;
   }
+
+  .services__dogsize {
+      font-size: 70%;
+  }
   
   .services__disclaimer {
     font-size: 60%;
+    line-height: normal;
+    margin-top: 0;
   }
 
    /*  For TABLET  */
   @media only screen and (min-width: 678px) {
     header img {
-        max-width: 150px; 
-        max-height: 150px;
+        max-width: 120px; 
+        max-height: 120px;
     }
   }
 
   /*  For DESKTOP  */
   @media only screen and (min-width: 900px) {
     header img {
-        max-width: 300px; 
-        max-height: 300px;
+        max-width: 150px; 
+        max-height: 150px;
     }
 
+    main { 
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 500px));
+        grid-gap: 0px;
+        align-items: stretch;
+        }
 
-  }
-
+      }
+    
+    
 
   

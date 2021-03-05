@@ -37,7 +37,7 @@ body {
   
   .card {
     background: #FFF;
-    max-width: 70%;
+    max-width: 300px;
     border-radius: 10px;
     padding: 0 1em;
     box-shadow: 2px 2px 6px 0px #a6a8a8;
@@ -104,8 +104,13 @@ body {
         font-size: 1.2em;
     }
 
-      }
-    
-    
+    .card {
+        max-width: 300px;
+    }
+
+    .card:hover {
+        background-color: linear-gradient(0.1turn, #3f87a6, #ebf8e1, #f69d3c);
+    }
 
   
+}

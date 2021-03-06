@@ -6,6 +6,10 @@ body {
     font-family: 'Flamenco', cursive;
     font-size: 0.9em;
     line-height: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
 
@@ -34,6 +38,7 @@ body {
     font-size: 2em;
     letter-spacing: 0.1em;
   }
+
   
   .card {
     background: #FFF;
@@ -89,7 +94,7 @@ body {
         max-width: 120px; 
         max-height: 120px;
     }
-
+    /*
     main { 
         display: grid; 
         align-items: stretch;
@@ -97,7 +102,21 @@ body {
         grid-template-columns: repeat(auto-fill, minmax(200px, 500px));
         grid-gap: 0px;
         font-size: 1.1em;
+    }  */
+
+    main {
+        max-width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
+    
+    section img {
+        max-width: 200px;
+        max-height: 200px;
+}
 
     .card h3 {
         text-align: center;

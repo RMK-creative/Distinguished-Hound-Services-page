@@ -11,15 +11,23 @@
     <title>The Distinguished Hound</title>
 </head>
 <body>
-    <header>
-        <div class="logo-header">
-            <img class="logo" src="assets/logo_208x239.png" id="logo" alt="">
+    <header class="header__main">
+        <nav class="header__main-nav">
+              <img class="logo" src="assets/logo_208x239.png" alt="">
+            <ol class="header__main-nav-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contact</a></li>
+            </ol>
+        </nav>
+        <div class="header__main-title">
+            <h2>Services</h2>
         </div>
-        <h2>Services</h2>
     </header>
-
     
-    <main>
+    <main class="wrapper">
         <section  class="services__washonly card">
             <h3>Wash Only</h3>
             <p>Deep cleansing warm hydrobath, blow dry and brush</p>
@@ -35,11 +43,6 @@
                     <li>$70*</li>
                 </div>
             </ol>
-            <p class="services__disclaimer">*All prices are a guide only and are subject to coat condition and temperament of your dog. Please refer to <a href="#" alt="">FAQ</a> for more information.</p>
-        </section>
-
-        <section>
-            <img class="services__dog1" src="/assets/dog w collar.jpg" alt="Dog wearing collar looking at camera">
         </section>
 
         <section  class="services__tidyup card">
@@ -57,12 +60,11 @@
                         <li>$80*</li>
                     </div>
             </ol>
-            <p class="services__disclaimer">*All prices are a guide only and are subject to coat condition and temperament of your dog. Please refer to <a href="#">FAQ</a> for more information.</p>
         </section>
 
         <section  class="services__groomout card">
             <h3>Groom Out</h3>
-            <p>De-shedding procedure that is ideal for breed with double coats. It involves a deep cleansing warm hydrobath, blow drying to remove excess undercoat, brush, hygeine area, face, eyes, ears and nails</p>
+            <p>Ideal for breeds with double coats involves a deep cleansing warm hydrobath, blow drying to remove excess undercoat, brush, hygeine area, face, eyes, ears and nails</p>
             <ol class="services__price-box">
                     <div class="services__price-item">
                         <li>All breed sizes from</li>
@@ -71,7 +73,6 @@
                         <li>$90*</li>
                     </div>
             </ol>
-            <p class="services__disclaimer">*All prices are a guide only and are subject to coat condition and temperament of your dog. Please refer to <a href="#">FAQ</a> for more information.</p>
         </section>
 
         <section  class="services__theworks card">
@@ -89,10 +90,15 @@
                         <li>$130*</li>
                     </div>
             </ol>
-            <p class="services__disclaimer">*All prices are a guide only and are subject to coat condition and temperament of your dog. Please refer to <a href="#">FAQ</a> for more information.</p>
         </section>
     
     </main>
+
+        <section class="services__disclaimer">
+            <div class="services__disclaimer-text">
+                <p >*All prices are a guide only and are subject to coat condition and temperament of your dog. Please refer to <a href="#" alt="">FAQ</a> for more information.</p>
+            </div>
+        </section>
   
 </body>
 </html>

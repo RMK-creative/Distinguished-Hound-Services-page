@@ -30,7 +30,7 @@ body {
 
   .header__main-title {
       text-align: center;
-      font-size: 2em;
+      font-size: 1em;
       letter-spacing: 0.1em;
       margin: 2rem 0;
   }
@@ -104,7 +104,7 @@ body {
     }
 
     .header__main-nav-list {
-        width: 100%;
+        width: 80%;
         display: inline-flex;
         justify-content: flex-end;
         align-items: center;
